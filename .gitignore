@@ -1,0 +1,8 @@
+# Archivos
+.DS_Store
+gulpfile.js
+*.json
+
+# Carpetas
+node_modules/
+src/
