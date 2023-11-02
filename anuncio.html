@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes Raices</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html">
+                <img class="logo" src="build/img/logo.svg" alt="Logotipo de Bienes Raices">
+                </a>
+                <div class="mobile-menu">
+                    <img src="build/img/barras.svg" alt="icono menu responsive">
+                </div>
+
+                <div class="derecha">
+                        <img  class="dark-mode-boton" src="build/img/dark-mode.svg" alt="dark mode">
+                    <nav class="navegacion">
+                        <a href="nosotros.html">Nosotros</a>
+                        <a href="anuncios.html">Anuncios</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contacto.html">Contacto</a>
+                    </nav>
+                 </div>
+            </div><!--.barra-->
+        </div>
+    </header>
+
+    <main class="contenedor seccion contenido-centrado">
+        <h1>Casa en Venta frente al bosque</h1>
+        <picture>
+            <source srcset="build/img/destacada.webp" type="image/webp">
+            <source srcset="build/img/destacada.jpg" type="image/jpeg">
+            <img loading="lazy" src="build/img/destacada.jpg" alt="imagen de la propiedad">
+        </picture>
+        <div class="resumen-propiedad">
+            <p class="precio">$3'000,000</p>
+        
+            <ul class="iconos-caracteristicas">
+                <li>
+                    <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                    <p>3</p>
+                </li>
+                <li>
+                    <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                    <p>3</p>
+                </li>
+                <li>
+                    <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono habitaciones">
+                    <p>4</p>
+                </li>
+            </ul>
+            <p>
+                Etiam facilisis, sapien eget suscipit placerat, enim turpis feugiat mauris, eget molestie risus augue eu lorem. Integer in leo at elit congue commodo. Sed a enim condimentum, elementum orci vitae, sagittis tortor. Cras molestie cursus arcu eget tempus. Mauris felis leo, commodo pulvinar mauris eu, volutpat sagittis dolor. Duis pretium fringilla nunc, et dictum magna elementum a. Fusce ac neque a mauris fermentum faucibus.
+            </p>
+            <p>
+                Nulla maximus maximus magna, eu bibendum felis semper eu. Etiam molestie commodo libero nec ornare. Curabitur ultricies viverra auctor. Integer nec feugiat tellus. Proin rutrum ante metus, in dignissim ligula facilisis eget. Vestibulum nec malesuada lorem. Nullam sit amet sem interdum, scelerisque odio in, elementum diam. Cras ultrices enim ut nisi consectetur, non congue felis mattis. Donec hendrerit et ipsum et dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus suscipit dictum ultrices.
+            </p>
+        </div>
+    </main>
+    
+    <footer class="footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+        <p class="copyright">Todos los derechos Reservados 2023 &copy;</p>
+
+    </footer>
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>
